@@ -1,0 +1,282 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* container 1 */
+
+.container-1 {
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: #A8DF8E; 
+}
+
+.logo {
+    cursor: pointer;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+.brand {
+    display: flex;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.firstname {
+
+}
+
+.lastname {
+    margin-left: 3px;
+}
+
+.navbar ul{
+    display: flex;
+    margin-right: 2rem;
+    list-style-type: none;
+}
+
+.navbar li {
+    padding-left: 4rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    font-size: 15px;
+    color: #B9B4C7;
+    transition: 0.2s;
+}
+
+.active {
+    color: #F3FDE8;
+}
+
+/* Home */
+
+.wrapper-home {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+}
+
+.text-home {
+    margin-right: 2rem;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.text-home p {
+    padding-bottom: 1rem;
+}
+
+hr {
+    width: 50%;
+    margin: auto;
+    border: 1.3px solid #222; 
+}
+
+/* container 2 */
+
+/* about */
+
+.container-2 {
+    font-family: 'poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #555;
+    height: 10vh;
+    margin-bottom: -3px;
+
+}
+
+.wrapper-about {
+    display: flex;
+    align-items: center;
+    background-color: #E5E5CB;
+    padding: 25px;
+}
+
+.text-about {
+    margin-left: 2rem;
+    width: 70%;
+    text-align: justify;
+}
+
+.foto-about {
+   margin: 2rem 2rem 2rem 4rem;
+   padding: 15px;
+   border-radius: 10px;
+}
+
+/* container 3 */
+
+/* content */
+
+.container-3 {
+display: flex;
+justify-content: center;
+}
+
+.wrapper-content-1 {
+
+display: flex;
+margin-bottom: 2rem;
+    
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  transition: 0.3s;
+  width: 150px;
+  padding: 15px;
+  margin-left: 3rem;
+  border-radius: 8px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.wrapper-card {
+  background-color: #E5E5CB;
+  padding: 5px;
+  border-radius: 8px;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.wrapper-content-2 {
+    display: flex;
+}
+
+.column-2-content {
+    display: flex;
+    justify-content: center;
+}
+
+/* container 4 */
+
+/* Contact */
+
+.container-4 {
+    width: 100%;
+    height: 100vh;
+    background-color: #F9F5F6;
+}
+
+.wrapper-contact {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="name"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.h2-contect {
+    position: relative;
+    top: 2rem;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 15px;
+    margin-top: 1rem;
+    height: 120px; 
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+.icon-contact, .wa, .ig, .youtube, .github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wa p {
+    padding-left: 10px;
+}
+.youtube p {
+    padding-left: 10px;
+}
+.ig p {
+    padding-left: 10px;
+}
+.github p {
+    padding-left: 10px;
+}
+
+.wa, .ig, .youtube, .github {
+    margin-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #B9B4C7;
+    font-size: 15px;
+}
+
+/* footer */
+
+.container-5 {
+    height: 10vh;
+    background-color: #E5E5CB;
+}
+
+.footer {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
